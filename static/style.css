@@ -1,0 +1,165 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+	background: #e9e9e9;
+	min-height: 100%;
+    margin: 0;
+}
+
+
+.nodisplay {
+	display: none;
+}
+
+#wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+
+/* HEADER */
+header {
+	background: #ffecb3;
+	height: 100px;
+	width: 100%;
+	overflow: auto;
+	border-radius: 25px 25px 0 0;
+}
+
+header #logo {
+	float: left;
+	height: 100px;
+	width: 100px;
+}
+
+header img {
+	width: 95px;
+	height: 95px;
+}
+
+header .headline {
+	float: left;
+	height: 100px;
+	text-align: left;
+	vertical-align: center;
+	margin-left: 20px;
+}
+
+
+/* NAVIGATION SIDEBAR */
+nav {
+	width: 260px;
+	float: left;
+	padding: 20px;
+}
+
+nav a button{
+	text-decoration: none;
+	color: black;
+}
+
+nav .navbutton {
+	line-height: 20px;
+	width: 150px;
+	display: block;
+}
+
+
+nav ul,
+nav ol {
+	list-style-image: none;
+}
+
+nav .navbutton: hover {
+	/* nothing*/
+}
+
+nav .subnav .navbutton {
+	line-height: 15px;
+}
+
+
+/* MAIN CONTENT */
+main {
+	overflow: auto;
+	background: white;
+	flex: 1;
+}
+
+main .container {
+	float: left;
+	margin-left: 10px;
+	width: 390px;
+	padding: 20px;
+}
+
+
+/* tools.php TABLE */
+main .container table {
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+}
+
+main .container td,
+main .container th{
+	padding: 8px;
+}
+
+main .container th,
+main .container td.colBez {
+	text-align: left;
+}
+
+main .container td.colID,
+main .container td.colAnz {
+	text-align: right;
+}
+
+main .container tbody td {
+	border: 1px solid #dddddd;
+}
+
+main .container tr:nth-child(even) {
+	background-color: #eeeeee;
+}
+
+main .container td.colID{
+	width: 26px;
+}
+
+main .container td.colAnz{
+	width: 50px;
+}
+
+main .container td.colBtn{
+	width: 82px;
+}
+
+#tooloverview {
+	width: 600px;
+}
+
+/* FORMS */
+.container form label {
+	display: inline-block;
+	width: 105px;
+	text-align: left;
+}
+
+
+/* FOOTER */
+footer {
+	text-align: center;
+	height: 30px;
+	padding: 20px;
+	background: #fff2cc;
+	border-radius: 0 0 25px 25px;
+}
