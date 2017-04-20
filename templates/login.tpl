@@ -16,4 +16,10 @@
 			<button name="submit" value="Login" type="submit">Login</button>
 		</p>
 	</form>
+	<p>
+		Dieter: 6 BraDi6
+	</p>
+	<p>
+		Horst: 5 SchHo5
+	</p>
 </div>
