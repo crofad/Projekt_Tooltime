@@ -127,8 +127,13 @@ main .container tbody td {
 	border: 1px solid #dddddd;
 }
 
-main .container tr:nth-child(odd) {
-	background-color: #eeeeee;
+main .container tr:nth-child(odd){
+	background: #f4f4f4;
+}
+
+main .container tr:nth-child(even),
+main .container thead tr {
+	background: #e5e5e5;
 }
 
 main .container td.colID{
