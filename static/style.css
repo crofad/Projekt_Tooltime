@@ -127,7 +127,7 @@ main .container tbody td {
 	border: 1px solid #dddddd;
 }
 
-main .container tr:nth-child(even) {
+main .container tr:nth-child(odd) {
 	background-color: #eeeeee;
 }
 
